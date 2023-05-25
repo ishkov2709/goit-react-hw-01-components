@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ishkov2709/goit-react-hw-01-components/static/css/main.d01b5c28.css",
+    "main.js": "/ishkov2709/goit-react-hw-01-components/static/js/main.3f880745.js",
+    "index.html": "/ishkov2709/goit-react-hw-01-components/index.html",
+    "main.d01b5c28.css.map": "/ishkov2709/goit-react-hw-01-components/static/css/main.d01b5c28.css.map",
+    "main.3f880745.js.map": "/ishkov2709/goit-react-hw-01-components/static/js/main.3f880745.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d01b5c28.css",
+    "static/js/main.3f880745.js"
+  ]
+}
