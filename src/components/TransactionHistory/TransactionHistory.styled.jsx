@@ -4,9 +4,11 @@ export const Table = styled.table`
 border-collapse: collapse;
 `
 
-export const Head = styled.thead``
+export const Head = styled.thead`
+`
 
-export const Title = styled.tr``
+export const Title = styled.tr`
+`
 
 export const TitleVal = styled.th`
     width: 300px;
@@ -27,4 +29,5 @@ export const TitleVal = styled.th`
     }
 `
 
-export const Body = styled.tbody``
+export const Body = styled.tbody`
+`
