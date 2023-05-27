@@ -3,85 +3,85 @@ import styled from '@emotion/styled'
 const BORDER_SET = `1px solid #cbcbcb`
 
 export const Card = styled.div`
-padding: 60px;
-width: 400px;
-height: 500px;
-background-color: #ececec;
-font-size: 20px
+    padding: 60px;
+    width: 400px;
+    height: 500px;
+    background-color: #ececec;
+    font-size: 20px;
 `
 
 export const Description = styled.div`
-padding: 50px 0;
+    padding: 50px 0;
 
-background-color: #ffffff;
+    background-color: #ffffff;
 
-border-top-left-radius: 6px;
-border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 
-box-shadow: 5px 5px 5px 7px rgba(212,212,212,1);
+    box-shadow: 5px 5px 5px 7px rgba(212,212,212,1);
 
-text-align: center;
+    text-align: center;
 `
 
 export const Image = styled.img`
-width: 100px;
-display: block;
-margin: 0 auto;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
 
-border-radius: 50%;
+    border-radius: 50%;
 `
 
 export const Username = styled.p``
 
 export const Usertag = styled.p`
-color: #a5a5a5;
+    color: #a5a5a5;
 
-font-size: 16px;
+    font-size: 16px;
 `
 
 export const Location = styled.p`
-color: #a5a5a5;
+    color: #a5a5a5;
 
-font-size: 16px;
+    font-size: 16px;
 `
 
 export const Stats = styled.ul`
-display: flex;
+    display: flex;
 
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 
-background-color: #dadada;
+    background-color: #dadada;
 
-border-bottom-left-radius: 6px;
-border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 
-box-shadow: 5px 5px 5px 7px rgba(212,212,212,1);
+    box-shadow: 5px 5px 5px 7px rgba(212,212,212,1);
 
-border-top: ${BORDER_SET};
-list-style: none;
+    border-top: ${BORDER_SET};
+    list-style: none;
 `
 
 export const Stat = styled.li`
-width: calc(100% / 3);
-padding: 10px;
+    width: calc(100% / 3);
+    padding: 10px;
 
-font-size: 16px;
-text-align: center;
+    font-size: 16px;
+    text-align: center;
 
-&:not(:last-child) {
-    border-right: ${BORDER_SET};
-}
+    &:not(:last-child) {
+        border-right: ${BORDER_SET};
+    }
 `
 
 export const Label = styled.span`
-display: block;
-margin-bottom: 6px;
+    display: block;
+    margin-bottom: 6px;
 
-color: #a5a5a5;
+    color: #a5a5a5;
 `
 
 export const Quantity = styled.span`
-display: block;
-font-weight: 600;
+    display: block;
+    font-weight: 600;
 `
