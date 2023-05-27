@@ -27,5 +27,4 @@ export const TitleVal = styled.th`
     }
 `
 
-export const Body = styled.tbody`
-`
+export const Body = styled.tbody``
