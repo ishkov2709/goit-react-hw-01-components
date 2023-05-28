@@ -1,24 +1,23 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 export const RowItem = styled.tr`
-    &:nth-of-type(2n) {
-        background-color: #eeeeee;
-    }
-`
+  &:nth-of-type(2n) {
+    background-color: #eeeeee;
+  }
+`;
 
 export const ItemVal = styled.td`
-    margin: 0;
+  margin: 0;
 
-    padding: 10px 0;
+  padding: 10px 0;
 
+  color: #797979;
 
-    color: #797979;
+  text-align: center;
 
-    text-align: center;
+  font-size: 16px;
 
-    font-size: 16px;
-
-    &:not(:last-child) {
-        border-right: 1px solid #e9e9e9;
-    }
-`
+  &:not(:last-child) {
+    border-right: 1px solid #e9e9e9;
+  }
+`;
